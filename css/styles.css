@@ -35,6 +35,8 @@ img {
   --bg-button-color: #188ce8;
   --section-pt: 94px;
   --section-pb: 94px;
+  --pt: 15px;
+  --pb: 15px;
 }
 
 body {
@@ -67,7 +69,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-color);
-  margin-bottom: 30px;
+  max-width: 696px;
+  margin: 0 auto;
 }
 .subtitle {
   font-weight: 700;
@@ -120,6 +123,8 @@ body {
 }
 .navigation-link {
   color: var(--main-color);
+  padding-top: var(--pt);
+  padding-bottom: var(--pb);
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -152,11 +157,12 @@ body {
 }
 .hero .container {
   text-align: center;
-  padding: 200px 252px;
+  padding: 200px 0;
 }
 .modal-btn {
   min-width: 136px;
   padding: 10px 32px;
+  margin-top: 30px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -247,8 +253,7 @@ body {
   margin-top: 30px;
 }
 .team-block {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 15px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -281,10 +286,7 @@ body {
 .portfolio-list-btn {
   display: flex;
   justify-content: center;
-  padding-left: 295px;
-  padding-right: 294px;
-  padding-bottom: 16px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   margin-left: -8px;
 }
 .portfolio-item-btn {
@@ -365,13 +367,13 @@ body {
 }
 .address {
   font-style: normal;
+  margin-top: 20px;
 }
 .address-list {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-top: 20px;
 }
 .address-item:not(:last-child) {
   margin-bottom: 9px;
